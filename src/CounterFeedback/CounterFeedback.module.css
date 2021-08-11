@@ -1,0 +1,10 @@
+  
+.CounterFeedback {
+    background-color: rgb(195, 206, 205);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }

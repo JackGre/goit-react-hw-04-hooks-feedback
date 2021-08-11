@@ -1,0 +1,27 @@
+.buttonList {
+    display: flex;
+    margin-bottom: 25px;
+    list-style-type: none;
+  }
+  
+  .buttonList li:not(:last-child) {
+    margin-right: 15px;
+  }
+  
+  .buttonList button {
+    background-color: orchid;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 18px;
+  
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 250ms ease;
+    
+  }
+  
+  .buttonList button:hover {
+    background-color: orangered;
+    transform: scale(1.2);
+  }
